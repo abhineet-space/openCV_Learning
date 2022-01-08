@@ -14,7 +14,7 @@ cv2.imshow('Display window 1', img1)
 
 
 #Closing and Saving
-k = cv2.waitKey(0) & 0xFF
+k = cv2.waitKey(0)
 if k == 27 : 
     cv2.destroyAllWindows
 elif k == ord('s'):
