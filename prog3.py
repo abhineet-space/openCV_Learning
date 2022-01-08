@@ -20,4 +20,3 @@ if k == 27 :
 elif k == ord('s'):
     cv2.imwrite('Grascale.png',img1)
     cv2.destroyAllWindows
-
