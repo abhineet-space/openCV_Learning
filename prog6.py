@@ -21,7 +21,7 @@ def click_event(event, x, y, flags, param):
         cv2.imshow("image", img)
 
 #img = np.zeros((512,512,4), np.uint8)
-img = cv2.imread('Data\Photo.jpeg')
+img = cv2.imread('Data\messi.jpg')
 cv2.imshow('image', img)
 
 cv2.setMouseCallback('image', click_event)
